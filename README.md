@@ -18,3 +18,7 @@ Ranking System이 포함된 웹 게임
 - refactor : 코드 리팩터링
 - test : 테스트 코드, 리팩터링 테스트 코드 추가
 - chore : 빌드 업무 수정, 패키지 매니저 수정, 그 외 자잘한 수정에 대한 커밋
+
+## 📌 와이어 프레임
+:hammer_and_wrench: [페이지 기획서](https://miro.com/app/board/uXjVPWA834Y=/?share_link_id=887730091007)
+![image](https://user-images.githubusercontent.com/92001468/190720564-b777b6cd-d051-4b7a-a012-1cee2ca419e6.png)

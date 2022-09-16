@@ -5,6 +5,9 @@ Ranking System이 포함된 웹 게임
 
 ## 📌 서비스 개요
 
+- Ranking System이 적용됩니다.
+- PVE 게임 시스템입니다.
+
 ## 📌 Commit Convention
 
 - init : 초기화

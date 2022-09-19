@@ -49,7 +49,7 @@ export default function Login() {
                     <input  />
                     <Link to={'/Main'}>Login</Link>
                 </form>
-                <Link>닉네임 만들러가기 →</Link>
+                <Link to={'/CreateNic'}>닉네임 만들러가기 →</Link>
             </LoginForm>
         </LoginBg>
     )

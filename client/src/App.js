@@ -12,7 +12,7 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/CreateNic" element={<CreateNic />} />
         <Route path="/Main" element={<Main />} />
-        <Route path="/ChaosFloor" element={<ChaosFloor/>} />
+        <Route path="/DungeonFloor" element={<ChaosFloor/>} />
       </Routes>
     </Router>
   );

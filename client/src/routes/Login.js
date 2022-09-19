@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Link } from "react-router-dom";
-import loignBg from '../../assets/LoginBg.jpg';
+import loignBg from '../assets/LoginBg.jpg';
 
 const LoginBg = styled('div')`
     height: 100vh;
@@ -27,7 +27,7 @@ const LoginForm = styled('div')`
             color: white; 
             font-size: 1.2rem;
         }
-        & > button {
+        & > a {
             width: 130px;
             height: 40px;
             background-color: transparent;
@@ -35,6 +35,9 @@ const LoginForm = styled('div')`
             font-size: 1.5rem;
             border: 0;
         }
+    }
+    & > a {
+        color: #808080;
     }
 `
 
@@ -44,9 +47,9 @@ export default function Login() {
             <LoginForm>
                 <form>
                     <input  />
-                    <button>Login</button>
+                    <Link to={'/Main'}>Login</Link>
                 </form>
-                <Link to={'#'}>닉네임 만들러가기 →</Link>
+                <Link>닉네임 만들러가기 →</Link>
             </LoginForm>
         </LoginBg>
     )
